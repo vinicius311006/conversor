@@ -41,7 +41,6 @@ async function converterMoney(){
         
     } 
     catch (err) {
-        console.log(err);
         error.style.display = 'block'
         error.innerHTML = `Falha ao converter moeda! Tentar novamente`
     }
